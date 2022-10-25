@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class TestProjectEditorTarget : TargetRules
+public class LightEaterEditorTarget : TargetRules
 {
-	public TestProjectEditorTarget(TargetInfo Target) : base(Target)
+	public LightEaterEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("TestProject");
+		ExtraModuleNames.Add("LightEater");
 	}
 }

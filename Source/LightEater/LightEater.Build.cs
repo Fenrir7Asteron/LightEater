@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class TestProject : ModuleRules
+public class LightEater : ModuleRules
 {
-	public TestProject(ReadOnlyTargetRules Target) : base(Target)
+	public LightEater(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

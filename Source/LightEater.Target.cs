@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class TestProjectTarget : TargetRules
+public class LightEaterTarget : TargetRules
 {
-	public TestProjectTarget(TargetInfo Target) : base(Target)
+	public LightEaterTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("TestProject");
+		ExtraModuleNames.Add("LightEater");
 	}
 }
