@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FCTween.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\projects\ITMO\UE5\LightEater\Intermediate\Build\Win64\LightEaterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\projects\ITMO\UE5\LightEater\Plugins\FCTween\Intermediate\Build\Win64\UnrealEditor\Development\FCTween\Module.FCTween.cpp.obj"
+"D:\projects\ITMO\UE5\LightEater\Plugins\FCTween\Intermediate\Build\Win64\UnrealEditor\Development\FCTween\Module.FCTween.gen.cpp.obj"
+"D:\projects\ITMO\UE5\LightEater\Plugins\FCTween\Intermediate\Build\Win64\UnrealEditor\Development\FCTween\Default.rc2.res"
+/OUT:"D:\projects\ITMO\UE5\LightEater\Plugins\FCTween\Intermediate\Build\Win64\UnrealEditor\Development\FCTween\UnrealEditor-FCTween.lib"
